@@ -31,7 +31,28 @@ public class DataTypesDemo {
 		long name=545454456L;
 		System.out.println(name);
 
-		//
+		//Type Casting
+		// Two Types of Type casting
+		//Narrowing Type casting (explicit type casting)
+		// Widening Type Casting (implicit type casting)
+		
+		
+		// Narrowing Type Casting
+		
+		int markerFirst=512;
+		System.out.println(markerFirst+"\n");
+		
+		float changeFirst=  markerFirst;
+		System.out.println(changeFirst);
+		
+		// Widening Type Casting
+		
+		float one = 33.45f;
+		System.out.println("\n"+one+"\n");
+		
+		int i = (int) one;
+		System.out.println(i);
+
 	}
 
 }
