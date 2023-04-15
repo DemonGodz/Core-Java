@@ -7,7 +7,7 @@ public class NestedDemo {
 		
 		NestedClass n = new NestedClass();
 		n.print();
-		System.out.println("ID = "+NestedClass.id);
+		System.out.println("ID = "+NestedClass.id);   // Or simply by object System.out.println("ID = "+n.id);
 	}
 
 }
