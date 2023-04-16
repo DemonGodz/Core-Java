@@ -4,11 +4,14 @@ public class InvalidAgeException extends Exception {
 	
 	InvalidAgeException()
 	{
-		System.out.println(("Invalid Age"));
+		//System.out.println(("Invalid Age")); 
+		super("Invalid Age");
 	}
 
 	InvalidAgeException(String message)
 	{
-		System.out.println((message));
+		//System.out.println((message));
+		super(message);
+
 	}
 }
