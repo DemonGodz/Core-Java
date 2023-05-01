@@ -25,12 +25,14 @@ public class AgeTestDemo {
 				System.out.println("Welcome to Vote");
 		
 		else
-			throw new InvalidAgeException("Invalid Age,Vote after 18+");
-				
-		}catch(InvalidAgeException e)
+		throw new InvalidAgeException("Invalid Age,Vote after 18+");
+
+		}
+		catch(InvalidAgeException e)
 		{
 			System.out.println("caught an exception "+e.getMessage());
 		}
+		
 		finally
 		{
 			sc.close();
