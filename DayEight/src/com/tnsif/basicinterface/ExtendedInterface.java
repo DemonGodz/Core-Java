@@ -1,6 +1,6 @@
 package com.tnsif.basicinterface;
 
-public class ExtendedInterface implements ChildInterface{
+public class ExtendedInterface implements ChildInterface,InterfaceOne{
 
 	@Override
 	public void show() {
