@@ -42,7 +42,7 @@ public class ThreadLifeCycleDemo extends Thread {
 		}
 		
 		System.out.println("After the complete execution of Thread,it is alive or not : "+myThread.isAlive()); //at Dead stage,Thread is not alive so (False)
-
+		
 	}
 
 	
