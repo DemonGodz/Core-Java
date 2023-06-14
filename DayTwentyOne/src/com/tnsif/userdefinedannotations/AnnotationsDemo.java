@@ -37,6 +37,28 @@ public class AnnotationsDemo {
 		System.out.println(s1.height());
 		System.out.println(s1.width());
 
+		
+		System.out.println("----------------------------------------------------------");
+		
+		System.out.println("Bike details are as follows: ");
+		
+		BikeSeries b = new BikeSeries("Duke",350);
+		System.out.println("Model : "+b.model);
+		System.out.println("Mileage : "+b.mileage);
+		
+		@SuppressWarnings("rawtypes")
+		Class c1 = b.getClass();
+		
+		System.out.println("Bike Features details are as follows: ");
+		
+		@SuppressWarnings("unchecked")
+		Annotation an2 = c1.getAnnotation(Features.class);
+		
+		Features f= (Features)an2;
+		System.out.println("Material : "+f.material());
+		System.out.println("CC : "+f.CC());
+
+
 
 	
 
